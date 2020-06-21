@@ -1,0 +1,42 @@
+.logon-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logon-container section.form {
+    width: 100%;
+    max-width: 350px;
+    margin-right: 30px;
+}
+
+.logon-container section.form form {
+    margin-top: 40px;
+
+}
+
+.logon-container section.form form h1 {
+    font-size: 28px;
+    margin-bottom: 22px;
+}
+
+
+
+.imgSmile {
+    width: 50%;
+    height: 70%;
+    border: 1px solid #958282;
+    box-sizing: border-box;
+    border-radius: 20%;
+    margin-right: -30%;
+    margin-left: 5%;
+}
+
+
+
+
