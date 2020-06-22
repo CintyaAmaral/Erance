@@ -49,4 +49,43 @@
     margin-top: 8px;   
 }
 
+@media (max-width:900px) {
+    .new-incident-container {
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .new-incident-container .content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        margin-top: -30px;
+    }
+
+    .new-incident-container .content section img {
+        width: 70%;
+    }
+
+    .new-incident-container .content section h1 {
+        margin: 40px 0 20px;
+        font-size: 25px;
+        width: 90%;
+    }
+
+    .new-incident-container .content section p {
+        width: 90%;
+    }
+
+    .new-incident-container .content section a {
+        position: absolute;
+        bottom: 30px;
+    }
+
+    .new-incident-container .content form {
+        margin-top: 20px;
+    }
+
+}
+
 

@@ -55,3 +55,46 @@
 .register-container .content form .input-group input + input {
     margin-left: 8px;
 }
+
+@media (max-width:900px) {
+    .register-container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .register-container .content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .register-container .content section img {
+        width: 80%;
+        padding: 10px;
+    }
+
+    .register-container .content section h1 {
+        margin: 40px 0 20px;
+    }
+
+    .register-container .content section a {
+        position: absolute;
+        bottom:30px;
+        
+    }
+    
+    .register-container .content form {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:680px) {
+    .register-container .content section a {
+        position: absolute;
+        bottom:-20px;
+        
+    }
+}
+

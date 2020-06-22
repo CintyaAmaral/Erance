@@ -86,3 +86,41 @@
     line-height: 21px;
     font-size: 16px;
 }
+
+@media (max-width:900px) {
+    .profile-container header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-container header img {
+        height: 30px;
+        width: 35%;
+        margin-right: 180px;
+        margin-top: 15px;
+        
+    }
+
+    .profile-container header span {
+        font-size: 25px;
+        margin: 40px;
+    }
+
+    .profile-container header a{
+        margin: 20px;
+    }
+
+    .profile-container header button {
+        position: absolute;
+        right: 30px;              
+    }
+
+    .profile-container h1 {
+        margin-top: 40px;
+    }
+
+    .profile-container ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
