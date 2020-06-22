@@ -54,13 +54,13 @@ export default function Profile () {
                 <img src={logoImg} alt="Erance" />
                 <span>Bem vinda, {ongName}</span>
 
-                <Link className="button" to="/incidents/new">Cadastrar novo caso</ Link>
+                <Link className="button" to="/incidents/new">Registrar nova chamada</ Link>
                 <button onClick={handleLogout} type="button">
                     <FiPower size={18} color="#05CEAE" />
                 </button>
             </header>
 
-            <h1>Casos cadastrados</h1>  
+            <h1>Chamadas atendidas</h1>  
 
             <ul>
                 

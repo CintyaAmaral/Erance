@@ -44,6 +44,7 @@ export default function Register() {
                     <img src={logoImg} alt="Erance"></img>
                     <h1>Cadastro</h1>
                     <p>Faça seu cadastro, entre na plataforma e ajude pessoas idosas nesse momento de isolamento social.</p>
+                    
 
                     <Link className="back-link" to="/">
                         <FiArrowLeft size={16} color="#05CEAE" />
@@ -64,7 +65,7 @@ export default function Register() {
                         onChange={ e => setEmail(e.target.value)}
                     />
 
-                    <input 
+                    <input                         
                         placeholder="WhatsApp"
                         value={whatsapp}
                         onChange={ e => setWhatsapp(e.target.value)}

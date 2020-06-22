@@ -43,8 +43,8 @@ export default function NewIncident() {
             <div className="content">
                 <section>
                     <img src={logoImg} alt="Erance"></img>
-                    <h1>Cadastrar novo caso</h1>
-                    <p>Descreva o caso detalhadamente para encontrar uma amigo para conversar.</p>
+                    <h1>Registro de pessoas ouvidas</h1>
+                    <p>Registre o primeiro nome da pessoa ouvida, como foi a chamada e a idade.</p>
 
                     <Link className="back-link" to="/profile">
                         <FiArrowLeft size={16} color="#05CEAE" />
@@ -53,12 +53,12 @@ export default function NewIncident() {
                 </section>
                 <form onSubmit={handleNewIncident}>
                     <input 
-                        placeholder="Nome da pessoa idosa"
+                        placeholder="Primeiro nome"
                         value={title}
                         onChange={e => setTitle(e.target.value)}
                     />
                     <textarea 
-                        placeholder="Descrição"
+                        placeholder="Descrição: suas impressões e resultados da chamada."
                         value={description}
                         onChange={e => setDescription(e.target.value)}
                     />
@@ -68,7 +68,7 @@ export default function NewIncident() {
                         onChange={e => setValue(e.target.value)}
                     />
                                     
-                    <button className="button" type="submit">Cadastrar</button>
+                    <button className="button" type="submit">Registrar</button>
 
                 </form>
             </div>
