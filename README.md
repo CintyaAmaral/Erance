@@ -28,22 +28,22 @@
 
 Inpirado na aplicação da Semana Omnistack 11.0, esse projeto foi desevolvido com as seguintes tecnologias:
 
-    - Node.js
-    - Express
-    - Nodemon
-    - SQLite
-    - ReactJS
-    - Axios
-    - Knex
+- Node.js
+- Express
+- Nodemon
+- SQLite
+- ReactJS
+- Axios
+- Knex
 
 # Como usar
 
 Para clonar e rodar essa aplicação você irá precisar Git, Node.js v12.16.1 e Yarn v1.13 ou maior instalados no seu computador. Na sua linha de comando:
 
-    1. Clone esse repositório usando `git clone`
-    2. Acesse a pasta do repositório
-    3. Execute `yarn install` para instalar as dependências 
-    4. Execute `yarn start` para iniciar 
+1. Clone esse repositório usando `git clone`
+2. Acesse a pasta do repositório
+3. Execute `yarn install` para instalar as dependências 
+4. Execute `yarn start` para iniciar 
 
 
     
